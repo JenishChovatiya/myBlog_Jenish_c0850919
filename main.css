@@ -40,20 +40,33 @@
 }
 
 
+/* Css for Home Section */
 
+/* here '#home' is a id which is available inside the home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
 
 .container {
     /* Background color */
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #283739;
 
 
     /* Curved corners */
-    border-bottom-left-radius: 60% 50%;
-    border-bottom-right-radius: 60% 50%;
+    border-bottom-left-radius: 50% 70%;
+    border-bottom-right-radius: 0% 80%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
-
+/* Image of mine */
 .avatar {
     /* Rounded border */
     border-radius: 50%;
@@ -62,18 +75,35 @@
 
     margin-left: auto;
     margin-right: auto;
+
+    padding-bottom: 10px;
     
 }
 
 .avatar__image {
     /* Rounded border */
     border-radius: 200%;
-
-
-    
-
-
     /* Take full size */
     height: 100%;
     width: 100%;
+}
+
+
+.btn{
+    background-color: #283739;
+    color: white;
+    text-align: center;
+    size: 10px;
+    outline: none;
+    border: 2px solid #283739;
+    font-size: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #118a7e;
+    color: #fff;
+    box-shadow: 0 0 10px black;
+    font-size: 20px;
+    font-weight: bold;
 }
