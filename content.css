@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For Navigation bar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #283739;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #a2c11c;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: #118a7e ;
+    color:#fff;
+    box-shadow: 0 0 10px #fff;
+    font-size: 1.9rem;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    font-family: serif;
+    
+}
+#introduction p{
+    font-size: 2erm;
+    margin-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: normal;
+   text-align: justify;
+
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-left: 40px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-left: 40px;
+}
+
+table {
+    padding-left: 30px ;
+    
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+tr:hover {
+    background-color: #DEA057;
+}
+
+footer
+{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    padding-top: 5%;
+    padding-bottom: 30px;
+}
