@@ -124,6 +124,9 @@
     font-weight: bold;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* Little Intro section in home page */
 #about{
