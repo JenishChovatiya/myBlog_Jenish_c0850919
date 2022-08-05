@@ -94,7 +94,17 @@ table {
     padding-left: 30px ;
     
 }
-th, td {
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   background: #084365;
+   color: #fff;
+}
+td {
     border: 1px solid black;
     text-align: center;
     padding: 10px;
@@ -112,4 +122,8 @@ footer
     padding-left: 20px;
     padding-top: 5%;
     padding-bottom: 30px;
+}
+
+.list{
+    list-style: disc;
 }
