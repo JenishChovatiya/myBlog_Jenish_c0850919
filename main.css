@@ -1,3 +1,6 @@
+body{
+    background-color: #C4DFE6;
+}
 *{
     margin: 0;
     padding: 0;
@@ -164,4 +167,31 @@ footer
     padding-left: 20px;
     padding-top: 5%;
     padding-bottom: 30px;
+}
+
+.personalinfo {
+   
+    margin-top:5%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgrey;
+    text-align: justify;
+    padding: 10px;
+    box-sizing: 10px;
+    height: 80%;
+    width: 70%;
+    box-shadow: 8px 8px #888888 ;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+   
+  }
+
+    
+p.containt{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    text-align: justify;
+   
 }
