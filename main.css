@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #283739;
-    position: sticky;
+    position: initial;
     top: 0;
 }
 
@@ -166,8 +166,8 @@ footer
     font-size: 20px;
     font-family: 'Times New Roman';
     padding-left: 20px;
-    padding-top: 5%;
     margin-bottom: 1%;
+    margin-top: 10%;
 }
 
 .personalinfo {
@@ -239,4 +239,65 @@ p.containt{
         width: 80%;
     }
     
+}
+
+
+
+
+/* For Mobile Responsive. */
+@media only screen and (max-width: 500px) {
+
+
+.container {
+    /* Curved corners */
+    border-bottom-left-radius: 110% 90%;
+    border-bottom-right-radius: 110% 90%;
+   
+}
+
+
+
+    .navbar ul li{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    
+    .avatar__image{
+        margin-left: -80px;
+        margin-top: 20px;
+        width: 80%;
+        height: 80%;
+        margin-top: 40px;
+    }
+
+    .name{
+        margin-top: -40px;
+        margin-left: -90px;
+        font-size: 1.3rem;
+    }
+
+    .btn
+    {
+        margin-top: -20px;
+        margin-left: -110px;
+        font-size: 1.3rem;
+    }
+
+    .headings{
+        margin-top: 3%;
+        font-size: 1.3rem;
+
+    }
+
+    .personalinfo{
+        margin-top: 18%;
+        width: 90%;
+        font-size: .8rem;
+    }
+
+    #intro{
+        font-size: 1rem;
+    }
+   
 }

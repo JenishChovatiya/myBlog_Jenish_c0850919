@@ -18,8 +18,9 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #283739;
-    position: sticky;
+    position: initial;;
     top: 0;
+
 }
 
 .navbar ul{
@@ -228,6 +229,7 @@ li{
 }
 
 
+
 /*Tablet Resposive*/
 @media only screen and (max-width: 800px){
 
@@ -303,6 +305,100 @@ li{
     #send{
         width: 20%;
         font-size: 2rem;
+    }
+    
+    
+    }
+    
+    
+
+
+/*Mobile Resposive*/
+@media only screen and (max-width: 500px){
+
+    .navbar{
+        top: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        word-spacing: 1px;
+        position: initial;
+    }
+
+    .navbar ul li{
+        font-size: 1.2rem;
+       
+    }
+
+
+    .navbar ul li a{
+        padding: 1px 1px;
+        transition: all .8s ease;
+        margin-right: 10px;
+    }   
+
+    
+    .personalinfo {
+        height: auto;
+        width: 90%;
+        font-size: 1rem;
+    }
+    
+        
+    p.containt{
+        font-size:.7rem;
+        padding-left: 20px;
+       
+    }
+    
+    li{
+        font-size: .7rem;
+    }
+    
+    
+    th{
+        padding: .8px;
+        font-size: .8rem;
+    }
+    td {
+        padding: .8px;
+        font-size: .8rem;
+    }
+    
+    
+    .headings1{
+        margin-top: 10%;
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    
+    .form{
+        width: 100%;
+    }
+    
+    
+    .input{
+        margin-top: 20px;
+        padding: 8px;
+        width: 80%;
+        border : 3px solid;
+    }
+    
+    
+    #msg{
+        width: 80%;
+        border: 3px solid;
+        margin-top: 30px;
+    }
+    
+    
+    
+    #send{
+        width: 30%;
+        font-size: 1.8rem;
     }
     
     
