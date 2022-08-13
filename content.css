@@ -90,6 +90,7 @@ li{
     font-size: 1.3rem;
     font-weight: normal;
     padding-left: 40px;
+    list-style-type: none;  
 }
 
 p{
@@ -325,18 +326,18 @@ li{
         word-spacing: 1px;
         position: initial;
     }
-
-    .navbar ul li{
-        font-size: 1.2rem;
-       
-    }
-
-
-    .navbar ul li a{
-        padding: 1px 1px;
-        transition: all .8s ease;
-        margin-right: 10px;
-    }   
+    
+        .navbar ul li{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    
+    
+        .navbar ul li a{
+            padding: 1px 10px;
+            transition: all .8s ease;
+            margin-right: 10px;
+        }  
 
     
     .personalinfo {
@@ -356,6 +357,9 @@ li{
         font-size: .7rem;
     }
     
+    table{
+        margin-left: -30px;
+    }
     
     th{
         padding: .8px;
@@ -402,6 +406,92 @@ li{
     }
     
     
+}
+
+
+
+
+
+@media only screen and (max-width: 315px) {
+
+    .navbar{
+        top: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        word-spacing: 1px;
+        position: initial;
+    }
+    
+        .navbar ul li{
+            font-size: .6rem;
+            font-weight: bold;
+        }
+    
+    
+        .navbar ul li a{
+            padding: 10px 8px;
+            transition: all .8s ease;
+            margin-right: 10px;
+        }  
+
+    
+    
+        .avatar__image{
+            margin-left:auto;
+            margin-right: auto;
+            width: 60%;
+            height: 60%;
+            margin-top: 1px;
+        }
+
+
+
+    .name{
+        margin-top: 90px;
+        margin-left:-170px;
+        font-size: 1.2rem;
+    }
+
+    .btn
+    {
+        margin-top: -170px;
+        margin-left: -160px;
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+
+
+    
+    table{
+        margin-left: -20px;
+    }
+    
+    th{
+        padding: .5px;
+        font-size: .6rem;
+    }
+    td {
+        padding: .5px;
+        font-size: .6rem;
     }
     
     
+    
+    .personalinfo {
+        height: auto;
+        width: 90%;
+        padding-left: 2px;
+    }
+    
+        
+    .containt{
+        font-size:.5rem;
+        padding-left: 2px;
+       
+    }
+
+
+}
+ 

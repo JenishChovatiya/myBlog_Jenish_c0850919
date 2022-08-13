@@ -208,6 +208,13 @@ p.containt{
         font-size: 1.3rem;
         font-weight: bold;
     }
+
+
+    .navbar ul li a{
+        padding: 1px 15px;
+        transition: all .8s ease;
+        margin-right: 10px;
+    }  
     
     
     .avatar__image{
@@ -244,6 +251,8 @@ p.containt{
 
 
 
+
+
 /* For Mobile Responsive. */
 @media only screen and (max-width: 500px) {
 
@@ -255,12 +264,27 @@ p.containt{
    
 }
 
-
+.navbar{
+    top: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    word-spacing: 1px;
+    position: initial;
+}
 
     .navbar ul li{
         font-size: 1rem;
         font-weight: bold;
     }
+
+
+    .navbar ul li a{
+        padding: 1px 10px;
+        transition: all .8s ease;
+        margin-right: 10px;
+    }  
     
     
     .avatar__image{
@@ -300,4 +324,86 @@ p.containt{
         font-size: 1rem;
     }
    
+}
+
+@media only screen and (max-width: 315px) {
+
+
+    .container {
+        /* Curved corners */
+        border-bottom-left-radius: 110% 90%;
+        border-bottom-right-radius: 110% 90%;
+
+        height: 80%;
+       
+    }
+
+
+    .navbar{
+        top: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        word-spacing: 1px;
+        position: initial;
+    }
+    
+        .navbar ul li{
+            font-size: .6rem;
+            font-weight: bold;
+        }
+    
+    
+        .navbar ul li a{
+            padding: 10px 8px;
+            transition: all .8s ease;
+            margin-right: 10px;
+        }  
+
+    
+    
+        .avatar__image{
+            margin-left:auto;
+            margin-right: auto;
+            width: 60%;
+            height: 60%;
+            margin-top: 1px;
+        }
+
+
+
+    .name{
+        margin-top: 90px;
+        margin-left:-170px;
+        font-size: 1.2rem;
+    }
+
+    .btn
+    {
+        margin-top: -170px;
+        margin-left: -160px;
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+
+
+    .headings{
+        margin-top: 2%;
+        font-size: 1rem;
+
+    }
+
+    .personalinfo{
+        margin-top: 10%;
+        width: 80%;
+        font-size: .6rem;
+        padding-left: 1px;
+        padding-right: 1px;
+        text-align: center;
+    }
+
+    #intro{
+        font-size: 1rem;
+    }
 }
